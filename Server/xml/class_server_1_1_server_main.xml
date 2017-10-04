@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_server_1_1_server_main" kind="class" language="C#" prot="public">
+    <compoundname>Server::ServerMain</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_server_1_1_server_main_1a29253dbff819a9fe04219fbe7e48aff5" prot="public" static="yes" mutable="no">
+        <type><ref refid="class_server_1_1_imp_services" kindref="compound">ImpServices</ref></type>
+        <definition>ImpServices Server.ServerMain.testServ</definition>
+        <argsstring></argsstring>
+        <name>testServ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServerMain.cs" line="28" column="1" bodyfile="ServerMain.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_server_1_1_server_main_1a86bf938e102cf3088dc327efc2a9fd4e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Server.ServerMain.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string []</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Opens the server connection and the instance of the implementation of services. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>(none) string of arguments that coukd be passed in at program start. None in this case.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServerMain.cs" line="34" column="1" bodyfile="ServerMain.cs" bodystart="34" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class containing the server start, and keeps the connection open. This class holds: implementation of all services available to the client. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="8">
+        <label>Server.ImpServices</label>
+        <link refid="class_server_1_1_imp_services"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Server.ServerMain</label>
+        <link refid="class_server_1_1_server_main"/>
+        <childnode refid="8" relation="usage">
+          <edgelabel>testServ</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>IntServices</label>
+      </node>
+    </collaborationgraph>
+    <location file="ServerMain.cs" line="27" column="1" bodyfile="ServerMain.cs" bodystart="26" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_server_1_1_server_main_1a86bf938e102cf3088dc327efc2a9fd4e" prot="private" virt="non-virtual"><scope>Server::ServerMain</scope><name>Main</name></member>
+      <member refid="class_server_1_1_server_main_1a29253dbff819a9fe04219fbe7e48aff5" prot="public" virt="non-virtual"><scope>Server::ServerMain</scope><name>testServ</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

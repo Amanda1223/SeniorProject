@@ -1,0 +1,17 @@
+﻿<Window x:Name="winWelcome" x:Class="ChatWindow.Welcome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatWindow"
+        mc:Ignorable="d"
+        Title="Welcome" Height="375" Width="310" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False"
+        WindowStartupLocation="CenterOwner" Background="#FFCCCCCC">
+    <Grid>
+        <Button x:Name="btnCloseWelcome" Content="Close" HorizontalAlignment="Center" Margin="0,332.847,0,0" VerticalAlignment="Top" Width="203.358" Height="35" BorderBrush="#FF666666" Background="#FF666666" Foreground="White" FontFamily="Yu Gothic UI Semibold" FontSize="18" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Padding="0,0,1,1" Click="btnCloseWelcome_Click"/>
+        <Label x:Name="lblWelcome" Content="Welcome" HorizontalAlignment="Center" Margin="0,200,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" FontSize="20" Foreground="#FF666666"/>
+        <Image x:Name="imgWelcomeIcon" HorizontalAlignment="Center" Height="130" VerticalAlignment="Top" Width="170" Margin="0,20,0,0" Source="/Resources/Icon.png"/>
+        <Label x:Name="lblUserWelcome" Content="" HorizontalAlignment="Center" Margin="0,245,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Tahoma" FontSize="20" Foreground="#FF666666"/>
+
+    </Grid>
+</Window>

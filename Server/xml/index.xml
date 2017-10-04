@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="class_server_1_1_connected_client" kind="class"><name>Server::ConnectedClient</name>
+    <member refid="class_server_1_1_connected_client_1a867993dfc8b951697f4d6da3b441b795" kind="variable"><name>connection</name></member>
+    <member refid="class_server_1_1_connected_client_1abcad7312a15ccc7496634f2975d4d19b" kind="property"><name>username</name></member>
+  </compound>
+  <compound refid="class_server_1_1_imp_services" kind="class"><name>Server::ImpServices</name>
+    <member refid="class_server_1_1_imp_services_1afc998ad2d0809f139fb0d9ef3be06e9a" kind="variable"><name>m_connClients</name></member>
+    <member refid="class_server_1_1_imp_services_1a9754494dad7fe6ad9384d1a3b8fbe9f7" kind="function"><name>login</name></member>
+    <member refid="class_server_1_1_imp_services_1abe719e81c6fdf7415e88b38e0cea104c" kind="function"><name>sendToAll</name></member>
+    <member refid="class_server_1_1_imp_services_1aeab3a319745048feb7b8c37b15d3abc5" kind="function"><name>sendToUser</name></member>
+    <member refid="class_server_1_1_imp_services_1af0dbb9ea98cc78fc4d1a18eaa69a40a6" kind="function"><name>newClientConnection</name></member>
+    <member refid="class_server_1_1_imp_services_1a11f26ed8cd8554c43fa27bca4205e534" kind="function"><name>disconnectionHandle</name></member>
+  </compound>
+  <compound refid="class_server_1_1_server_main" kind="class"><name>Server::ServerMain</name>
+    <member refid="class_server_1_1_server_main_1a29253dbff819a9fe04219fbe7e48aff5" kind="variable"><name>testServ</name></member>
+    <member refid="class_server_1_1_server_main_1a86bf938e102cf3088dc327efc2a9fd4e" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="namespace_interfaces" kind="namespace"><name>Interfaces</name>
+  </compound>
+  <compound refid="namespace_server" kind="namespace"><name>Server</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_concurrent" kind="namespace"><name>System::Collections::Concurrent</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_serialization" kind="namespace"><name>System::Runtime::Serialization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_service_model" kind="namespace"><name>System::ServiceModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="_connected_client_8cs" kind="file"><name>ConnectedClient.cs</name>
+  </compound>
+  <compound refid="_imp_services_8cs" kind="file"><name>ImpServices.cs</name>
+  </compound>
+  <compound refid="_server_main_8cs" kind="file"><name>ServerMain.cs</name>
+  </compound>
+</doxygenindex>

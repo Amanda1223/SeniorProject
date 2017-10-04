@@ -1,0 +1,18 @@
+﻿<Window x:Name="winLogin" x:Class="ChatWindow.LogIn"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatWindow"
+        mc:Ignorable="d"
+        Title="LogIn" Height="375" Width="310" WindowStyle="None" Background="#FFCCCCCC"
+        WindowStartupLocation="CenterOwner" ShowInTaskbar="False" ResizeMode="NoResize">
+    <Grid x:Name="winLogIn">
+        <Image x:Name="imgIcon" Height="135" Margin="61,10,62,0" VerticalAlignment="Top" Source="/Resources/Icon.png" HorizontalAlignment="Center"/>
+        <TextBox x:Name="txtUserName" TextAlignment="Center" HorizontalAlignment="Center" Height="28" Margin="64,179,66,168" TextWrapping="Wrap" VerticalAlignment="Center" Width="180" FontFamily="Tahoma" FontSize="14" Background="#FFEAEAEA" AutomationProperties.IsRequiredForForm="True" AutomationProperties.HelpText="Username" Text="Username" Foreground="#FF666666" GotFocus="txtUserName_GotFocus" LostFocus="txtUserName_LostFocus" SelectionBrush="Black" BorderBrush="#FF727272"/>
+        <TextBox x:Name="txtPassword" TextAlignment="Center" HorizontalAlignment="Center" Height="28" Margin="64,226,67,121" TextWrapping="Wrap" VerticalAlignment="Center" Width="179" FontFamily="Tahoma" FontSize="14" Background="#FFEAEAEA" AutomationProperties.IsRequiredForForm="True" Foreground="#FF666666" Text="Password" KeyDown="txtPassword_KeyDown" BorderBrush="#FF727272" SelectionBrush="Black"/>
+        <Image x:Name="btnLogin" HorizontalAlignment="Left" Height="64" Margin="112,269,0,0" VerticalAlignment="Top" Width="96" Source="/Resources/Login.png" MouseDown="btnLogin_MouseDown"/>
+        <Button x:Name="btnReg" Content="New User? Register." HorizontalAlignment="Left" Height="27" Margin="164,338,0,0" VerticalAlignment="Top" Width="136" FontFamily="tahoma" BorderBrush="{x:Null}" BorderThickness="0,0,0,2" Background="#FFCCCCCC"/>
+
+    </Grid>
+</Window>

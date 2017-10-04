@@ -1,0 +1,14 @@
+﻿<Window x:Name="winSemiTrans" x:Class="ChatWindow.SemiTransOverlay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatWindow"
+        mc:Ignorable="d"
+        Title="semiTransOverlay" Height="300" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowState="Maximized" WindowStyle="None" AllowsTransparency="True" ShowInTaskbar="False">
+    <Window.Background>
+        <SolidColorBrush Opacity="0.7" Color="Black"/>
+    </Window.Background>
+    <Grid x:Name="ImgControls">
+    </Grid>
+</Window>
