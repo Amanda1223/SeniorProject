@@ -52,5 +52,7 @@ namespace ChatWindow
             //Redundant code.m_startWindow.disconnect();
             m_startWindow.Close();
         }
+
+       // TODO: MongoDB Connection
     }
 }
